@@ -14,7 +14,7 @@ export default function Navbar() {
               height={40} 
               className="object-contain"
             />
-            <span className="text-xl font-bold tracking-wider text-white">WEB ROCKET</span>
+            <span className="text-xl font-bold tracking-wider text-white">WebCraft & Co</span>
           </Link>
           
           <div className="hidden md:block">

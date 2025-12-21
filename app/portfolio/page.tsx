@@ -57,7 +57,7 @@ export default function PortfolioPage() {
         <div className="max-w-2xl mx-auto px-4">
             <div className="w-20 h-20 mx-auto rounded-full overflow-hidden mb-8 border-2 border-white/20">
             <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop" 
+                    src="/images/profile.png" 
                     alt="Lead Designer" 
                     className="w-full h-full object-cover"
                 />
@@ -74,8 +74,8 @@ export default function PortfolioPage() {
             
             <div>
             <p className="text-sm text-gray-500 mb-2">Prefer Email?</p>
-            <a href="mailto:chris@webrocket.studio" className="font-bold text-white border-b border-white hover:text-accent hover:border-accent transition-colors">
-                chris@webrocket.studio
+            <a href="mailto:paradox8269@gmail.com" className="font-bold text-white border-b border-white hover:text-accent hover:border-accent transition-colors">
+                paradox8269@gmail.com
             </a>
             </div>
         </div>
