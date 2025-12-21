@@ -29,7 +29,7 @@ export default function HomeHero() {
         <div className="mt-20 rounded-2xl overflow-hidden border border-white/10 shadow-2xl mx-auto max-w-5xl">
             <div className="aspect-[16/9] relative bg-gray-900">
                <img 
-                    src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop" 
+                    src="/images/Poster 2.png" 
                     alt="Agency Workspace" 
                     className="w-full h-full object-cover opacity-80"
                 />

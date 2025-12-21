@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Rocket } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Navbar() {
   return (
@@ -7,8 +7,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2">
-            <Rocket className="h-8 w-8 text-accent" />
-            <span className="text-xl font-bold tracking-wider text-white">WebCraft & Co</span>
+            <Image 
+              src="/images/Logo.png" 
+              alt="Web Rocket Logo" 
+              width={40} 
+              height={40} 
+              className="object-contain"
+            />
+            <span className="text-xl font-bold tracking-wider text-white">WEB ROCKET</span>
           </Link>
           
           <div className="hidden md:block">

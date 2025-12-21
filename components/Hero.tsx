@@ -28,7 +28,7 @@ export default function Hero() {
                 </div>
                  {/* Simulate the image content with CSS shapes/colors if needed, but a placeholder is safer */}
                 <img 
-                    src="https://images.unsplash.com/photo-1558655146-d09347e0d7a8?q=80&w=2070&auto=format&fit=crop" 
+                    src="/images/Poster 3.png" 
                     alt="Brand Design Workspace" 
                     className="object-cover w-full h-full opacity-80 group-hover:scale-105 transition-transform duration-500"
                 />
